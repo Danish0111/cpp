@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp"
+    },
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true
+}
