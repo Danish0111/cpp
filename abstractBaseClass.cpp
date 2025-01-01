@@ -2,7 +2,7 @@
 using namespace std;
 
 // abstract base class is a class which has at least one virtual function
-class Base{ // absttract base class
+class Base{ // abstract base class
     public:
         int base = 45;
         virtual void display()=0; // pure virtual function

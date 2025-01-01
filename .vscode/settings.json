@@ -3,7 +3,12 @@
         "*.ejs": "html",
         "iostream": "cpp",
         "initializer_list": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "streambuf": "cpp",
+        "iosfwd": "cpp"
     },
     "pieces.cloudCapabilities": "Blended",
     "pieces.telemetry": true

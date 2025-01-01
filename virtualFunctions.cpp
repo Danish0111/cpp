@@ -18,11 +18,13 @@ class Derived : public Base{
 };
 
 int main(){
-    Base * base_ptr;
-    Derived obj_derived;
-    base_ptr = &obj_derived;
-    base_ptr->base = 54;
-    base_ptr->display();
-
+    // Base * base_ptr;
+    // Derived obj_derived;
+    // base_ptr = &obj_derived;
+    // base_ptr->base = 54;
+    // base_ptr->display();
+    Base b;
+    b.base = 5;
+    b.display();
     return 0;
 }

@@ -1,15 +1,6 @@
 #include <iostream>
 using namespace std;
 
-class Complex;
-
-class Calculator
-{
-public:
-    int sumRealCOmplex(Complex, Complex);
-    int sumcompCOmplex(Complex, Complex);
-};
-
 class Complex
 {
     int a, b;
@@ -32,6 +23,14 @@ public:
         cout << "complex number is " << a << " + i" << b << endl;
     }
 };
+
+class Calculator
+{
+public:
+    int sumRealCOmplex(Complex, Complex);
+    int sumcompCOmplex(Complex, Complex);
+};
+
 int Calculator :: sumRealCOmplex(Complex o1, Complex o2)
 {
     return o1.a + o2.a;
